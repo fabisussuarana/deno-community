@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #dddcdc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.card{
+    height: 28.5rem;
+    width: 18rem;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+#infos, #infos2, #footer{
+    padding: 12px 10px 5px 10px;
+}
+
+#infos div{
+    margin-bottom: 15px;
+}
+
+#infos #titulo{
+    font-size: 1.3em;
+}
+
+.estrelas i{
+    color: rgb(235, 204, 0);
+}
+
+.estrelas span, .estrelas i{
+    font-size: 0.7em;
+}
+
+#info2 span, #infos2 span{
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+#info2 #spanCinza{
+    color: #7c7c7c;
+    margin-top: 5px;
+}
+
+#infos::after{
+    content: '';
+    height: 2px;
+    width: 92%;
+    position: absolute;
+    background-color: #dfdfdf;
+}
+
+.itens a{
+    background-color: #d3d3d3;
+    color: #000000;
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-size: 0.8em;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer span{
+    color: #9000ff;
+    font-size: 1em;
+}
